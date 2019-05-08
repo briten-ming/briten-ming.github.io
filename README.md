@@ -1,2 +1,2 @@
 # jehu.github.io
-jehu's blog
+[jehu's blog](http://wwyx778.github.io)
