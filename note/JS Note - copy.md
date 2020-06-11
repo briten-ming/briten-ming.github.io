@@ -27,6 +27,7 @@ var b = a;
 a.word = 'hi';
 console.log(a, b); // { word: 'hi' }  { word: 'hi' }
 ```
+![common](https://github.com/wwyx778/wwyx778.github.io/blob/master/asset/copy/common.jpg)  
 很多时候这会造成意料之外的 bug，所以深拷贝和浅拷贝应运而生。
 
 ### 浅拷贝
@@ -58,6 +59,7 @@ console.log(b);
 // }
 ```
 可以看到浅拷贝对于基本类型已经得到了两份互不干扰的数据，但是对于引用类型因为只是拷贝了地址，所以还是会互相影响。
+![shallowcopy](https://github.com/wwyx778/wwyx778.github.io/blob/master/asset/copy/shallowcopy.jpg)  
 通俗的讲就是浅拷贝只是浅浅的对对象的第一层的完整拷贝。
 
 ### 深拷贝
@@ -89,4 +91,5 @@ console.log(b);
 // }
 ```
 可以看到深拷贝得到的是完全不同但是所有值都相同的两个对象。
+![deepcopy](https://github.com/wwyx778/wwyx778.github.io/blob/master/asset/copy/deepcopy.jpg)  
 深拷贝才是真正意义上的 copy 了一份原对象的复制。
